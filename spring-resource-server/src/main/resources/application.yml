@@ -1,0 +1,11 @@
+server:
+  port: 8181
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: http://auth-server:8183
+  output:
+    ansi:
+      enabled: always
